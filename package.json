@@ -1,0 +1,23 @@
+{
+  "name": "grunt-jest",
+  "version": "1.0.0",
+  "description": "Grunt task for running jest tests",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leebyron/grunt-jest.git"
+  },
+  "keywords": [
+    "gruntplugin",
+    "jest",
+    "test"
+  ],
+  "author": "Lee Byron",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leebyron/grunt-jest/issues"
+  },
+  "homepage": "https://github.com/leebyron/grunt-jest",
+  "peerDependencies": {
+    "jest-cli": "^0.1.17"
+  }
+}
