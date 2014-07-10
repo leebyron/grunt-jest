@@ -34,6 +34,7 @@ The path to a jest config file specifying how to find and execute tests.
 
 #### testPathPattern
 Type: `RegExp`
+Default: `/.*/`
 
 Only tests which match this pattern will execute.
 
@@ -72,7 +73,7 @@ processes that run tests). This is sometimes useful for debugging, but such use 
 jest: {
   options: {
     coverage: true,
-    testPathPattern: /.*/
+    testPathPattern: /.*-test.js/
   }
 }
 ```
