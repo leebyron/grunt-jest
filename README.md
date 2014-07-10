@@ -1,4 +1,4 @@
-# grunt-jest v1.0.0
+# grunt-jest v0.1.0
 
 Grunt task to run tests with [Jest](http://facebook.github.io/jest/).
 
