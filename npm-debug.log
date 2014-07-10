@@ -1,0 +1,116 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/leebyron/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+12 verbose folder ./
+13 info prepublish grunt-jest@0.1.0
+14 silly lockFile 04cb2bca-tar tar://./
+15 verbose lock tar://./ /Users/leebyron/.npm/04cb2bca-tar.lock
+16 silly lockFile 479a2333-38553-0-3420943815726787-tmp-tgz tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+17 verbose lock tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz /Users/leebyron/.npm/479a2333-38553-0-3420943815726787-tmp-tgz.lock
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile 479a2333-38553-0-3420943815726787-tmp-tgz tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+21 silly lockFile 479a2333-38553-0-3420943815726787-tmp-tgz tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+22 verbose tar unpack /var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+23 silly lockFile d0dc5538-38553-0-3420943815726787-package tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+24 verbose lock tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package /Users/leebyron/.npm/d0dc5538-38553-0-3420943815726787-package.lock
+25 silly lockFile 479a2333-38553-0-3420943815726787-tmp-tgz tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+26 verbose lock tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz /Users/leebyron/.npm/479a2333-38553-0-3420943815726787-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry README.md
+30 silly gunzTarPerm extractEntry tasks/jest.js
+31 silly lockFile d0dc5538-38553-0-3420943815726787-package tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+32 silly lockFile d0dc5538-38553-0-3420943815726787-package tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+33 silly lockFile 479a2333-38553-0-3420943815726787-tmp-tgz tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+34 silly lockFile 479a2333-38553-0-3420943815726787-tmp-tgz tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/tmp.tgz
+35 verbose tar pack [ '/Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz',
+35 verbose tar pack   '/var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package' ]
+36 verbose tarball /Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+37 verbose folder /var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+38 silly lockFile d0dc5538-38553-0-3420943815726787-package tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+39 verbose lock tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package /Users/leebyron/.npm/d0dc5538-38553-0-3420943815726787-package.lock
+40 silly lockFile 1ab65650-npm-grunt-jest-0-1-0-package-tgz tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+41 verbose lock tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz /Users/leebyron/.npm/1ab65650-npm-grunt-jest-0-1-0-package-tgz.lock
+42 silly lockFile d0dc5538-38553-0-3420943815726787-package tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+43 silly lockFile d0dc5538-38553-0-3420943815726787-package tar:///var/folders/0v/r_jhx7yj2cl4yxprd9zzrqpr3g1_63/T/npm-66844-bsnpSJo5/1405029538553-0.3420943815726787/package
+44 silly lockFile 1ab65650-npm-grunt-jest-0-1-0-package-tgz tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+45 silly lockFile 1ab65650-npm-grunt-jest-0-1-0-package-tgz tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+46 silly lockFile 29743f6c-ron-npm-grunt-jest-0-1-0-package /Users/leebyron/.npm/grunt-jest/0.1.0/package
+47 verbose lock /Users/leebyron/.npm/grunt-jest/0.1.0/package /Users/leebyron/.npm/29743f6c-ron-npm-grunt-jest-0-1-0-package.lock
+48 silly lockFile 29743f6c-ron-npm-grunt-jest-0-1-0-package /Users/leebyron/.npm/grunt-jest/0.1.0/package
+49 silly lockFile 29743f6c-ron-npm-grunt-jest-0-1-0-package /Users/leebyron/.npm/grunt-jest/0.1.0/package
+50 verbose tar unpack /Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+51 silly lockFile bf49979d-ron-npm-grunt-jest-0-1-0-package tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package
+52 verbose lock tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package /Users/leebyron/.npm/bf49979d-ron-npm-grunt-jest-0-1-0-package.lock
+53 silly lockFile 1ab65650-npm-grunt-jest-0-1-0-package-tgz tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+54 verbose lock tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz /Users/leebyron/.npm/1ab65650-npm-grunt-jest-0-1-0-package-tgz.lock
+55 silly gunzTarPerm modes [ '755', '644' ]
+56 silly gunzTarPerm extractEntry package.json
+57 silly gunzTarPerm extractEntry README.md
+58 silly gunzTarPerm extractEntry tasks/jest.js
+59 silly lockFile bf49979d-ron-npm-grunt-jest-0-1-0-package tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package
+60 silly lockFile bf49979d-ron-npm-grunt-jest-0-1-0-package tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package
+61 silly lockFile 1ab65650-npm-grunt-jest-0-1-0-package-tgz tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+62 silly lockFile 1ab65650-npm-grunt-jest-0-1-0-package-tgz tar:///Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz
+63 verbose chmod /Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz 644
+64 verbose chown /Users/leebyron/.npm/grunt-jest/0.1.0/package.tgz [ 116435139, 1876110778 ]
+65 silly lockFile 0ee6c175- ./
+66 silly lockFile 0ee6c175- ./
+67 silly publish { name: 'grunt-jest',
+67 silly publish   version: '0.1.0',
+67 silly publish   description: 'Grunt task to run tests with Jest.',
+67 silly publish   repository: { type: 'git', url: 'git://github.com/leebyron/grunt-jest.git' },
+67 silly publish   keywords: [ 'gruntplugin', 'jest', 'test' ],
+67 silly publish   author: { name: 'Lee Byron' },
+67 silly publish   license: 'MIT',
+67 silly publish   bugs: { url: 'https://github.com/leebyron/grunt-jest/issues' },
+67 silly publish   homepage: 'https://github.com/leebyron/grunt-jest',
+67 silly publish   peerDependencies: { 'jest-cli': '^0.1.17' },
+67 silly publish   readme: '# grunt-jest v0.1.0\n\nGrunt task to run tests with [Jest](http://facebook.github.io/jest/).\n\n\n\n## Getting Started\nThis plugin requires Grunt `~0.4.0`\n\nIf you haven\'t used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you\'re familiar with that process, you may install this plugin with this command:\n\n```shell\nnpm install grunt-jest --save-dev\n```\n\nOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\n\n```js\ngrunt.loadNpmTasks(\'grunt-jest\');\n```\n\n\n\n## Run tests\n_Run this task with the `grunt jest` command._\n\nTask options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\n### Options\n\n#### config\nType: `String` srcpath\n\nThe path to a jest config file specifying how to find and execute tests.\n\n#### testPathPattern\nType: `RegExp`\nDefault: `/.*/`\n\nOnly tests which match this pattern will execute.\n\n#### coverage\nType: `Boolean`\nDefault: `false`\n\nIndicates that test coverage information should be collected and reported in the output.\n\n#### maxWorkers\nType: `Number`\nDefault: Number of cores available on this machine.\n\nSpecifies the maximum number of workers the worker-pool will spawn for running tests.\n(it is usually best not to override this default)\n\n#### onlyChanged\nType: `Boolean`\nDefault: `false`\n\nAttempts to identify which tests to run based on which files have changed in\nthe current repository. Only works if you\'re running tests in a git repository at the moment.\n\n#### runInBand\nType: `Boolean`\nDefault: `false`\n\nRun all tests serially in the current process (rather than creating a worker pool of child\nprocesses that run tests). This is sometimes useful for debugging, but such use cases are pretty rare.\n\n\n\n### Usage Examples\n\n```js\njest: {\n  options: {\n    coverage: true,\n    testPathPattern: /.*-test.js/\n  }\n}\n```\n',
+67 silly publish   readmeFilename: 'README.md',
+67 silly publish   _id: 'grunt-jest@0.1.0',
+67 silly publish   dist: { shasum: '4edc678c904b77cf0e06d223a50df124d38e6ca9' },
+67 silly publish   _from: './' }
+68 error Error: forbidden cannot modify pre-existing version: 0.1.0
+68 error old={"name":"grunt-jest","version":"0.1.0","description":"Grunt task to run tests with Jest.","repository":{"type":"git","url":"git://github.com/leebyron/grunt-jest.git"},"keywords":["gruntplugin","jest","test"],"author":{"name":"Lee Byron"},"license":"MIT","bugs":{"url":"https://github.com/leebyron/grunt-jest/issues"},"homepage":"https://github.com/leebyron/grunt-jest","peerDependencies":{"jest-cli":"^0.1.17"},"_id":"grunt-jest@0.1.0","dist":{"shasum":"07c813d7ab26b10a328c5923bbe62899721606c0","tarball":"http://registry.npmjs.org/grunt-jest/-/grunt-jest-0.1.0.tgz"},"_from":"./","_npmVersion":"1.4.3","_npmUser":{"name":"leebyron","email":"lee@leebyron.com"},"maintainers":[{"name":"leebyron","email":"lee@leebyron.com"}]}
+68 error new={"name":"grunt-jest","version":"0.1.0","description":"Grunt task to run tests with Jest.","repository":{"type":"git","url":"git://github.com/leebyron/grunt-jest.git"},"keywords":["gruntplugin","jest","test"],"author":{"name":"Lee Byron"},"license":"MIT","bugs":{"url":"https://github.com/leebyron/grunt-jest/issues"},"homepage":"https://github.com/leebyron/grunt-jest","peerDependencies":{"jest-cli":"^0.1.17"},"readme":"# grunt-jest v0.1.0\u000a\u000aGrunt task to run tests with [Jest](http://facebook.github.io/jest/).\u000a\u000a\u000a\u000a## Getting Started\u000aThis plugin requires Grunt `~0.4.0`\u000a\u000aIf you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:\u000a\u000a```shell\u000anpm install grunt-jest --save-dev\u000a```\u000a\u000aOnce the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:\u000a\u000a```js\u000agrunt.loadNpmTasks('grunt-jest');\u000a```\u000a\u000a\u000a\u000a## Run tests\u000a_Run this task with the `grunt jest` command._\u000a\u000aTask options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.\u000a### Options\u000a\u000a#### config\u000aType: `String` srcpath\u000a\u000aThe path to a jest config file specifying how to find and execute tests.\u000a\u000a#### testPathPattern\u000aType: `RegExp`\u000aDefault: `/.*/`\u000a\u000aOnly tests which match this pattern will execute.\u000a\u000a#### coverage\u000aType: `Boolean`\u000aDefault: `false`\u000a\u000aIndicates that test coverage information should be collected and reported in the output.\u000a\u000a#### maxWorkers\u000aType: `Number`\u000aDefault: Number of cores available on this machine.\u000a\u000aSpecifies the maximum number of workers the worker-pool will spawn for running tests.\u000a(it is usually best not to override this default)\u000a\u000a#### onlyChanged\u000aType: `Boolean`\u000aDefault: `false`\u000a\u000aAttempts to identify which tests to run based on which files have changed in\u000athe current repository. Only works if you're running tests in a git repository at the moment.\u000a\u000a#### runInBand\u000aType: `Boolean`\u000aDefault: `false`\u000a\u000aRun all tests serially in the current process (rather than creating a worker pool of child\u000aprocesses that run tests). This is sometimes useful for debugging, but such use cases are pretty rare.\u000a\u000a\u000a\u000a### Usage Examples\u000a\u000a```js\u000ajest: {\u000a  options: {\u000a    coverage: true,\u000a    testPathPattern: /.*-test.js/\u000a  }\u000a}\u000a```\u000a","readmeFilename":"README.md","_id":"grunt-jest@0.1.0","dist":{"shasum":"4edc678c904b77cf0e06d223a50df124d38e6ca9","tarball":"http://registry.npmjs.org/grunt-jest/-/grunt-jest-0.1.0.tgz"},"_from":"./","_npmVersion":"1.4.3","_npmUser":{"name":"leebyron","email":"lee@leebyron.com"},"maintainers":[{"name":"leebyron","email":"lee@leebyron.com"}]}: grunt-jest
+68 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:237:14)
+68 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/request.js:121:22)
+68 error     at Request.EventEmitter.emit (events.js:98:17)
+68 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/request.js:978:14)
+68 error     at Request.EventEmitter.emit (events.js:117:20)
+68 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/node_modules/request/request.js:929:12)
+68 error     at IncomingMessage.EventEmitter.emit (events.js:117:20)
+68 error     at _stream_readable.js:920:16
+68 error     at process._tickCallback (node.js:415:13)
+69 error If you need help, you may report this *entire* log,
+69 error including the npm and node versions, at:
+69 error     <http://github.com/npm/npm/issues>
+70 error System Darwin 13.2.0
+71 error command "node" "/usr/local/bin/npm" "publish" "./"
+72 error cwd /Users/leebyron/src/grunt-jest
+73 error node -v v0.10.26
+74 error npm -v 1.4.3
+75 verbose exit [ 1, true ]
