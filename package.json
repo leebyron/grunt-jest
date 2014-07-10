@@ -1,7 +1,7 @@
 {
   "name": "grunt-jest",
   "version": "1.0.0",
-  "description": "Grunt task for running jest tests",
+  "description": "Grunt task to run tests with Jest.",
   "repository": {
     "type": "git",
     "url": "git://github.com/leebyron/grunt-jest.git"

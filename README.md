@@ -1,6 +1,6 @@
 # grunt-jest v1.0.0
 
-> Grunt task to run [jest](http://facebook.github.io/jest/) tests.
+Grunt task to run tests with [Jest](http://facebook.github.io/jest/).
 
 
 
