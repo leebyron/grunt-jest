@@ -1,9 +1,12 @@
 'use strict';
 
 module.exports = function(grunt) {
-
-  grunt.registerTask('jest', 'Run tests with Jest.', function() {
-    require('jest-cli').runCLI(this.options(), process.cwd(), this.async());
+  
+  grunt.registerMultiTask('jest', 'Run tests with Jest.', function() {
+    var options = this.options();
+    // rootDir is a required config option
+    options.rootDir = process.cwd();
+    require('jest-cli').runCLI({config: options}, process.cwd(), this.async());
   });
 
 };
