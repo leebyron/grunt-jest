@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/leebyron/grunt-jest",
   "peerDependencies": {
-    "jest-cli": "^12"
+    "jest-cli": "*"
   }
 }

@@ -1,3 +1,14 @@
+# DEPRECATED
+
+`grunt-jest` is deprecated as there are now much better ways to use Grunt and
+Jest together.
+
+Read [Jest getting started](https://facebook.github.io/jest/#getting-started)
+describing adding an npm script which calls jest, then use the fantastic
+[`grunt-run`](https://github.com/spalger/grunt-run) plugin to run Jest (or any
+other npm script!) directly from your Grunt config.
+
+
 # grunt-jest v0.1.0
 
 Grunt task to run tests with [Jest](http://facebook.github.io/jest/).
